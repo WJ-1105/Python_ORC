@@ -5,7 +5,7 @@
 
 docker-compose build
 
-ddocker-compose up
+docker-compose up
 
 在浏览器输入 http://0.0.0.0:8000/
 
