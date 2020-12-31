@@ -4,9 +4,10 @@
 如果没有docker和docker compose，可以直接下载桌面版，里面内置了docker 和 docker compose。  
 Mac: https://hub.docker.com/editions/community/docker-ce-desktop-mac/  
 Windows: https://hub.docker.com/editions/community/docker-ce-desktop-windows/  
+确保docker启动后  
 
 
-随后在该文件夹下执行以下命令 
+在该文件夹下执行以下命令 
 
 docker-compose build
 
