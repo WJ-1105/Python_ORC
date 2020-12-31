@@ -1,7 +1,7 @@
 # Python_ORC
 
-下载该文件夹，并下载docker 和 docker compose
-执行以下命令 
+下载该文件夹，并下载docker 和 docker compose，
+随后在该文件夹下执行以下命令 
 
 docker-compose build
 
