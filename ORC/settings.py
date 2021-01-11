@@ -25,10 +25,23 @@ SECRET_KEY = 'n9n3@jwuhyp_enn-(0=ohv^()a&#i0%g8!vt3@(^w-3c!-jib1'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['0.0.0.0']
+ALLOWED_HOSTS = ['0.0.0.0', '127.0.0.1']
 
+# REST_FRAMEWORK = {
+#     'DEFAULT_CONTENT_NEGOTIATION_CLASS': 'myapp.negotiation.IgnoreClientContentNegotiation',
+# }
 
 # Application definition
+# REST_FRAMEWORK = {
+#     'DEFAULT_RENDERER_CLASSES': [
+#         'rest_framework.renderers.JSONRenderer',
+#     ],
+#     'DEFAULT_PARSER_CLASSES': [
+#         'rest_framework.parsers.JSONParser',
+#     ]
+# }
+
+
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -37,7 +50,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'index'
+    'rest_framework',
+    'index',
 ]
 
 MIDDLEWARE = [
