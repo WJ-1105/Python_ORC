@@ -5,7 +5,7 @@
 Mac: https://hub.docker.com/editions/community/docker-ce-desktop-mac/  
 Windows: https://hub.docker.com/editions/community/docker-ce-desktop-windows/  
 确保docker启动后  
-确保电脑里又Postman
+确保电脑里有Postman
 
 
 在该文件夹下执行以下命令 
