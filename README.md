@@ -16,6 +16,7 @@ docker-compose up
 
 
 在Postman里输入 http://0.0.0.0:8000/index
+
 request type选择POST， 然后用body上传， key输入movie_image,  value则上传本地任意图片，最后点击Send
 
 结果会已json格式返回所有的字母。
